@@ -30,7 +30,7 @@ const CompleteProfile = () => {
     if (!formData.gymnastics_type) {
       toast({
         title: "Required field",
-        description: "Please select your gymnastics type",
+        description: "Please select your discipline",
         variant: "destructive"
       });
       return;
