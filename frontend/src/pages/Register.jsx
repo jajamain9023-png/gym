@@ -239,7 +239,7 @@ const Register = () => {
 
             <Button 
               type="submit" 
-              className="btn-primary btn-large"
+              className={`btn-primary btn-large ${isFormValid() ? 'btn-glow' : ''}`}
               disabled={isLoading}
             >
               {isLoading ? t('common.loading') : t('auth.createAccount')}
