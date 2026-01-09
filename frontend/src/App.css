@@ -4163,6 +4163,29 @@ body {
   padding-right: 40px;
 }
 
+/* Ensure select dropdown text is always visible */
+.form-select option {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Dark mode support for options */
+@media (prefers-color-scheme: dark) {
+  .form-select option {
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+}
+
+/* Ensure selected value is visible in the select */
+.form-select {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
 .form-input:focus {
   outline: none;
   border-color: var(--brand-primary);
