@@ -179,7 +179,6 @@ const Register = () => {
                 max="120"
                 value={formData.age}
                 onChange={handleChange}
-                required
                 className="form-input"
                 placeholder="Enter your age"
               />
