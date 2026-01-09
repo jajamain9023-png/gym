@@ -9,7 +9,7 @@ const WaitlistInfo = ({ onJoinClick }) => {
           <Lock size={24} className="info-icon" />
           <div className="info-content">
             <h4>Exclusive Access</h4>
-            <p>Only waitlist members can purchase on Feb 2</p>
+            <p>Only waitlist members can purchase on Feb 20</p>
           </div>
         </div>
         
