@@ -122,7 +122,7 @@ export const products = [
     color: 'Black',
     logo: 'Silver',
     images: [
-      '/images/products/lauo11fr_6.webp',
+      'https://customer-assets.emergentagent.com/job_gym-recovery-1/artifacts/lwfr97sg_short%20back.png',
       '/images/products/0zp1wq7a_1.webp'
     ],
     mensSizes: ['S', 'M', 'L', 'XL'],
@@ -132,6 +132,53 @@ export const products = [
     stock: { XS: 4, S: 8, M: 10, L: 14, XL: 10 },
     featured: true,
     soldCount: 115
+  },
+  {
+    id: 7,
+    name: 'Performance Shorts',
+    category: 'shorts',
+    type: 'shorts',
+    variant: 'Grey / Cyan',
+    description: 'Performance shorts engineered for gymnastics training. Designed to pair with Performance T-Shirts.',
+    price: 55,
+    originalPrice: 75,
+    color: 'Grey',
+    logo: 'Cyan',
+    images: [
+      'https://customer-assets.emergentagent.com/job_gym-recovery-1/artifacts/mk5hllnk_short%20gray.png',
+      'https://customer-assets.emergentagent.com/job_gym-recovery-1/artifacts/lwfr97sg_short%20back.png'
+    ],
+    mensSizes: ['S', 'M', 'L', 'XL'],
+    womensSizes: ['XS', 'S', 'M', 'L'],
+    sizes: ['S', 'M', 'L', 'XL'], // Default to men's
+    inStock: true,
+    stock: { XS: 8, S: 12, M: 16, L: 20, XL: 14 },
+    featured: true,
+    soldCount: 89
+  },
+  {
+    id: 8,
+    name: 'Performance Shorts',
+    category: 'shorts',
+    type: 'shorts',
+    variant: 'Black / Blue',
+    description: 'Performance shorts engineered for gymnastics training. Designed to pair with Performance T-Shirts.',
+    price: 55,
+    originalPrice: 75,
+    color: 'Black',
+    logo: 'Blue',
+    images: [
+      'https://customer-assets.emergentagent.com/job_gym-recovery-1/artifacts/xt57pgfh_short%20blue.png',
+      'https://customer-assets.emergentagent.com/job_gym-recovery-1/artifacts/lwfr97sg_short%20back.png'
+    ],
+    mensSizes: ['S', 'M', 'L', 'XL'],
+    womensSizes: ['XS', 'S', 'M', 'L'],
+    sizes: ['S', 'M', 'L', 'XL'], // Default to men's
+    inStock: true,
+    stock: { XS: 10, S: 14, M: 18, L: 22, XL: 16 },
+    featured: true,
+    mostPopular: true,
+    soldCount: 234
   }
 ];
 
