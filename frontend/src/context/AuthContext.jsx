@@ -2,6 +2,14 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 
 const API_URL = process.env.REACT_APP_BACKEND_URL;
 
+// Debug: Log the API URL to console
+console.log('🔍 API_URL loaded:', API_URL);
+console.log('🔍 process.env.REACT_APP_BACKEND_URL:', process.env.REACT_APP_BACKEND_URL);
+
+if (!API_URL) {
+  console.error('❌ REACT_APP_BACKEND_URL is not defined! Check your .env file.');
+}
+
 const AuthContext = createContext();
 
 export const useAuth = () => {
